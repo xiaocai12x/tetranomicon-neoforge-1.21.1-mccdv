@@ -1,0 +1,42 @@
+{
+    "key": "socket_betternether_nether_ruby",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "attributes": {
+        "**generic.attack_damage": 0.1
+    },
+    "effects": {
+        "criticalStrike": [
+            20,
+            2
+        ]
+    },
+    "tints": {
+        "glyph": "930015",
+        "texture": "930015"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 4,
+    "material": {
+        "items": [
+            "betternether:nether_ruby"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "key": "betternether_neon_equisetum",
+    "category": "fibre",
+    "primary": 4,
+    "secondary": 1.9,
+    "tertiary": 3,
+    "durability": 1024,
+    "integrityCost": 1,
+    "integrityGain": 7,
+    "magicCapacity": 48,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "792663",
+        "texture": "792663"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "betternether:neon_equisetum"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:iron"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "betternether"
+        }
+    ]
+}
