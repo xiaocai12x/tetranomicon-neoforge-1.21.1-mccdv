@@ -2,7 +2,6 @@ package com.syric.tetranomicon;
 
 import com.syric.tetranomicon.registry.TetranomiconItems;
 import com.syric.tetranomicon.registry.TetranomiconTiers;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.ModList;
@@ -16,7 +15,6 @@ public class Tetranomicon {
     public static final Logger LOGGER = LogManager.getLogger();
 
     public Tetranomicon(ModContainer modContainer) {
-        NeoForge.EVENT_BUS.register(this);
         TetranomiconTiers.init();
 
         IEventBus modEventBus = modContainer.getEventBus();
