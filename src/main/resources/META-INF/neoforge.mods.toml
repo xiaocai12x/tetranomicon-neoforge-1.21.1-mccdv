@@ -12,29 +12,28 @@ description='''${mod_description}'''
 
 [[dependencies.${mod_id}]]
     modId="neoforge"
-    mandatory=true
+    type="required"
     versionRange="${neo_version_range}"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="minecraft"
-    mandatory=true
+    type="required"
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="tetra"
-    mandatory=true
+    type="required"
     versionRange="[6.13.0,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="oresabovediamonds"
-    mandatory=false
+    type="optional"
     versionRange="[10.0.0b,)"
     ordering="AFTER"
     side="BOTH"
-
